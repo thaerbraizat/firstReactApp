@@ -25,7 +25,7 @@ class HornedBeast extends Component {
             <div>
                 <h2>{this.props.title}</h2>
                
-                <img onClick={this.changeVote} src={this.props.image_url} alt={this.props.title}></img>
+                <img onClick={this.changeVote} src={this.props.image_url} alt={this.props.title} style={{width: "300px"} }></img>
 
                 <p>{this.props.description}</p>
                 <p>{this.state.vote} <span style={{color: "red"}}>&#10084;</span></p>
