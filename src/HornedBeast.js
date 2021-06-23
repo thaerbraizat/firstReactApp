@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Card, Button, Modal } from 'react-bootstrap'
 
 
+
 class HornedBeast extends Component {
     constructor(props) {
         super(props)
@@ -28,6 +29,7 @@ class HornedBeast extends Component {
         console.log(this.state.vote);
         return (
 
+            
 
             < Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" onClick={this.changeVote} src={this.props.image_url} alt={this.props.title} />
@@ -64,7 +66,7 @@ class HornedBeast extends Component {
                 </Modal>
 
             </Card >
-
+             
         )
     }
 }
